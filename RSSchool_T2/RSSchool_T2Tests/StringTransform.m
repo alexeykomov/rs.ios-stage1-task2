@@ -65,7 +65,7 @@
 
 - (void)test8 {
     NSString *testString = @"TWO driven jock helped fax my big quiz.";
-    NSString *resultString = @"1My 1Quiz. 2TWO 2FaX 2BiG 3JoCK 4DRiVeN 4HeLPeD";
+    NSString *resultString = @"1My 2TWO 2FaX 2BiG 2QuiZ. 3JoCK 4DRiVeN 4HeLPeD";
     BOOL f = [resultString isEqualToString:[testString transform]];
     XCTAssertTrue(f);
 }
