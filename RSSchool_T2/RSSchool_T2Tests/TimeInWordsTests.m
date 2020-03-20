@@ -24,7 +24,7 @@
 }
 
 - (void)testTimeConvertation_With15Minutes {
-   XCTAssertEqualObjects([self.converter convertFromHours:@"4" minutes:@"15"], @"quater past four");
+   XCTAssertEqualObjects([self.converter convertFromHours:@"4" minutes:@"15"], @"quarter past four");
 }
 
 - (void)testTimeConvertation_With30Minutes {
